@@ -23,6 +23,8 @@ namespace ConsoleApp1
                     lastnumber = number;
                 }
                 Console.WriteLine(number);
+                Console.Beep(800,500);
+                Console.ReadKey();
             }
 
         }
