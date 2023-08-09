@@ -23,10 +23,12 @@ namespace ConsoleApp1
                     lastnumber = number;
                 }
                 Console.WriteLine(number);
-                Console.Beep(800,500);
-                Console.ReadKey();
             }
-
+            Console.Beep(800, 250);
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Boo!");
+            Console.ReadKey();
         }
     }
 }
